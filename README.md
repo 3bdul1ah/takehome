@@ -154,18 +154,13 @@ The RViz interface will display the RRT algorithm building a path tree in real-t
 - Always set the TurtleBot3 model: `export TURTLEBOT3_MODEL=waffle_pi`
 - Use simulation time for Gazebo: `use_sim_time:=true`
 
-**Graphics and Display:**
-- Ensure proper graphics drivers are installed
-- Verify OpenGL support for Gazebo and RViz
-- Check X11 forwarding if using SSH
-
 **ROS 2 Installation:**
 - Source ROS 2 setup if commands are not found: `source /opt/ros/$ROS_DISTRO/setup.bash`
 - Verify all required packages are installed
 
 **RAI Framework:**
-- Install Poetry if not available: [Poetry Installation Guide](https://python-poetry.org/docs/#installation)
-- Ensure valid OpenAI API key is set
+- Install Poetry if not available: [Installation](https://robotecai.github.io/rai/setup/install/)
+- Ensure valid OpenAI API key is set [Setup](https://robotecai.github.io/rai/setup/vendors/)
 - Check network connectivity for API calls
 
 ## References
