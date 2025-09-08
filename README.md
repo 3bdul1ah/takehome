@@ -93,6 +93,8 @@ poetry run streamlit run src/scripts/turtlebot3_agent.py
 ```
 *Access the web interface at the localhost URL provided by Streamlit.*
 
+> The core integration between the Large Language Model and ROS happens in [`rai/src`](rai/src). This is where the AI agent processes natural language commands and translates them into ROS actions using state classes and tools from the RAI framework.
+
 **Terminal B - Gazebo Environment:**
 ```bash
 cd dev_ws
