@@ -1,0 +1,17 @@
+{
+    "python.defaultInterpreterPath": "/home/abdullah/venv/bin/python3",
+    "python.analysis.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/home/abdullah/rai/src"
+    ],
+    "python.venvPath": "/home/abdullah/venv",
+    "python.pythonPath": "/home/abdullah/venv/bin/python3",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python-envs.pythonProjects": [
+        {
+            "path": "",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}
