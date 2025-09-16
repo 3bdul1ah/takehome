@@ -112,7 +112,7 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=true map:
 ```
 
 ### Usage
-Interact with your robot through the Streamlit interface using natural language commands like "move to the kitchen" or "rotate 90 degrees."
+Interact with your robot through the Streamlit interface using natural language commands like "go to home" or "go to x = .. y = .. theta = .. ."
 
 ![Robot Agent Demo](docs/section2.gif)
 
